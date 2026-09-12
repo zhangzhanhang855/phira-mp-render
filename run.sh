@@ -1,3 +1,3 @@
 #!/bin/sh
 PORT="${PORT:-10000}"
-exec /app/phira-mp --port "$PORT"
+exec /app/phira-mp-server --port "$PORT"
